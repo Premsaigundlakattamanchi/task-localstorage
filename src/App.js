@@ -202,6 +202,7 @@ export default class App extends Component {
                   resolve();
                 }),
             }}
+            
             columns={[
               { title: "Event Name", field: "name" },
               { title: "Start Date", field: "startDate" },
